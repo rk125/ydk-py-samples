@@ -31,7 +31,7 @@ if __name__ == "__main__":
     """Main execution path"""
 
     # create NETCONF session
-    provider = NetconfServiceProvider(address="10.0.0.1",
+    provider = NetconfServiceProvider(address="198.18.1.11",
                                       port=830,
                                       username="admin",
                                       password="admin",
